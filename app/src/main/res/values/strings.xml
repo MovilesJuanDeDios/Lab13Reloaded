@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab13_Reloaded</string>
+
+    <!--SharedPreferences-->
+    <string name="preference_file_key">MyPrefs</string>
+    <string name="pref_username">usernameKey</string>
+
+    <string name="empty_username">Por favor ingrese un nombre de usuario</string>
+    <string name="empty_password">Por favor ingrese una contraseña</string>
+
+    <string name="empty_id">Por favor ingrese el id</string>
+    <string name="empty_name">Por favor ingrese el nombre</string>
+    <string name="empty_lastname">Por favor ingrese los apellidos</string>
+    <string name="empty_age">Por favor ingrese la edad</string>
+    <string name="empty_desc">Por favor ingrese la descripcion</string>
+    <string name="empty_cred">Por favor ingrese los creditos</string>
+
+    <string name="user_not_found">Usuario o contraseña inválidos</string>
+</resources>

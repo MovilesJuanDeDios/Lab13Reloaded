@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lab13_reloaded.view.SelectCourseActivity">
+
+    <TextView
+        android:id="@+id/select_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deslize para asociar un curso"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/select_course_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/colorAccent"
+            android:dividerHeight="2dp">
+        </com.baoyz.swipemenulistview.SwipeMenuListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_student"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:text="Finalizar"
+        android:textColor="#FAFAFA" />
+
+</LinearLayout>

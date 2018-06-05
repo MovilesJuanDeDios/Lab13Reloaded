@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="15dp"
+tools:context="com.example.lab13_reloaded.view.CourseListActivity">
+
+<LinearLayout
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/course_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="1dp">
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+</LinearLayout>
+
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_course"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_marginBottom="20dp"
+    android:layout_marginEnd="20dp"
+    app:backgroundTint="@color/gray_color"
+    android:tint="@color/colorAccent"
+    app:srcCompat="@android:drawable/ic_input_add" />
+
+</android.support.design.widget.CoordinatorLayout>
